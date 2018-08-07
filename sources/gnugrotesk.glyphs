@@ -13,6 +13,17 @@ B,
 c,
 e
 );
+customParameters = (
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
+}
+);
 date = "2018-08-04 23:04:41 +0000";
 disablesNiceNames = 1;
 familyName = "GNU Grotesk";
@@ -20,6 +31,17 @@ fontMaster = (
 {
 ascender = 768;
 capHeight = 736;
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
+}
+);
 descender = -256;
 id = "F6752803-E9E3-41A6-B92A-1FAB6ACE0E29";
 weightValue = 400;
@@ -30,11 +52,22 @@ xHeight = 528;
 ascender = 768;
 capHeight = 736;
 custom = Black;
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+}
+);
+}
+);
 descender = -256;
 iconName = Bold;
 id = "4E407420-3460-49BF-A41E-BF3B8360384D";
 visible = 1;
-weightValue = 900;
+weightValue = 700;
 widthValue = 5;
 xHeight = 528;
 }
@@ -4806,12 +4839,11 @@ name = Regular;
 interpolationWeight = 700;
 interpolationWidth = 5;
 instanceInterpolations = {
-"4E407420-3460-49BF-A41E-BF3B8360384D" = 0.6;
-"F6752803-E9E3-41A6-B92A-1FAB6ACE0E29" = 0.4;
+"4E407420-3460-49BF-A41E-BF3B8360384D" = 1;
 };
 isBold = 1;
 name = Black;
-weightClass = Black;
+weightClass = Bold;
 }
 );
 kerning = {
